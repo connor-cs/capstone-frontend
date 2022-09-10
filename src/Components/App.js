@@ -2,6 +2,7 @@ import '../App.css';
 import React from 'react'
 import Header from './Header';
 import { Routes, Route } from 'react-router-dom'
+import Landing from './Landing';
 
 function App() {
 
@@ -10,10 +11,14 @@ function App() {
   return (
     <div className='App'>
       <Header />
-      {/* <Routes> */}
-        <h1>hello</h1>
-        <button>Explore trails</button>
-      {/* </Routes> */}
+      <Routes>
+        <Route exact path='/home' element={<Landing />}></Route>
+        
+        <Route exact path='/login' element={<Login />}></Route>
+
+        <Route exact path='/signup' element={<Signup />}></Route>
+        
+      </Routes>
     </div>
   );
 }
