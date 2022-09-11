@@ -1,8 +1,11 @@
 import '../App.css';
 import React from 'react'
 import Header from './Header';
-import { Routes, Route } from 'react-router-dom'
 import Landing from './Landing';
+import Login from './Login';
+import Signup from './Signup';
+import { Routes, Route } from 'react-router-dom'
+
 
 function App() {
 

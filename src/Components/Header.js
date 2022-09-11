@@ -3,9 +3,8 @@ import Form from './Form'
 
 export default function Header() {
     return (
-        <>
-            <h1>Welcome to Trails App</h1>
-            <Form />
-        </>
+        <header className='header-bar'>
+            <h1>Welcome to Good Hikes</h1>
+        </header>
     )
 }
