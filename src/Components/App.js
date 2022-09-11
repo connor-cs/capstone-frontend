@@ -14,6 +14,7 @@ function App() {
   return (
     <div className='App'>
       <Header />
+      <Landing />
       <Routes>
         <Route exact path='/home' element={<Landing />}></Route>
         

@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo|Open+Sans|Quicksand|Permanent+Marker');
 
 body {
-  margin: 0;
-  padding: 0;
-font-family: 'Heebo';
+font-family: 'Open Sans';
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -12,8 +11,24 @@ code {
 }
 
 .header-bar{
-  border: solid, #ffd29d;
-  background-color: #ffd29d;
+  border: solid, #e9d0b4;
+  background-color: #e9d0b4;
   padding-bottom: 25px;
   margin-top: 0px;
+}
+
+.landing {
+  /* background-image: url('https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'); */
+  background-image: url('https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2103&q=80');
+  height: 100%;
+  /* padding-top: 1100px; */
+  background-size: cover
+}
+
+.explore-btn {
+  bottom: 40vw;
+  left: 50vw;
+  display: center;
+  position: fixed;
+  font-family: 'Open Sans';
 }
