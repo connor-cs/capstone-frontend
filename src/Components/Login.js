@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Login() {
   return (
-    <div>Login</div>
+    <main className='login-page'>
+    <div>Login form goes here</div>
+    </main>
   )
 }

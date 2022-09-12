@@ -1,10 +1,10 @@
 import React from 'react'
-import styled from 'styled-components'
+// import styled from 'styled-components'
 
 export default function Landing() {
   return (
-    <main className='landing'>
-    <button className='explore-btn'>Explore trails</button>
+    <main className='landing-page'>
+      <button className='explore-btn'>Explore trails</button>
     </main>
   )
 }
